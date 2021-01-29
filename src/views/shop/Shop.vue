@@ -6,17 +6,20 @@
       <van-tab title="评价">内容 2</van-tab>
       <van-tab title="商家">内容 3</van-tab>
     </van-tabs>
+    <order-bar></order-bar>
   </div>
 </template>
 
 <script>
   import ShopNavBar from "@/views/shop/child/ShopNavBar";
+  import OrderBar from "@/views/shop/child/OrderBar";
   import Good from "@/views/shop/child/Good";
   export default {
     name: "Shop",
     components:{
       ShopNavBar,
-      Good
+      Good,
+      OrderBar
     },
     data(){
       return{
